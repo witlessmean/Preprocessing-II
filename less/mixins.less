@@ -1,1 +1,21 @@
 // Mixins in here
+
+.flex-center { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inverse-content {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed @navigation-border; 
+}
+
+.button(@width, @height, @background-color, @border-radius) { 
+    width: @width;
+    height: @height;
+    background-color: @background-color;
+    border-radius: @border-radius; 
+  }
+  
+  
